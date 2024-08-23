@@ -1,5 +1,8 @@
 # ease-in-out-opacity
 
+Semi-gradient generator for opacity values using the ease-in-out curve for a
+more natural transition.
+
 Usage:
 
 ```sh
@@ -30,3 +33,6 @@ background-image: linear-gradient(
     alpha(black, 0.00) 84px
 );
 ```
+
+If you're not writing this for GTK, use the `-f` flag to change it to use
+`rgba()` instead.
